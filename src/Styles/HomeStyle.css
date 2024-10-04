@@ -1,0 +1,30 @@
+
+.home {
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  .home-content {
+    text-align: center;
+  }
+  
+  .home-title {
+    font-size: 3rem;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  @media (max-width: 600px) {
+    .home-title {
+      font-size: 2rem;
+    }
+  }
+  
